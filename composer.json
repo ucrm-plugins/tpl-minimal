@@ -1,0 +1,43 @@
+{
+    "name": "ucrm-plugins/tpl-minimal",
+    "description": "A minimal Plugin template for UCRM.",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://gitlab.com/ucrm-plugins/tpl-minimal.git",
+    "authors": [
+        {
+            "name": "Ryan Spaeth",
+            "email": "rspaeth@spethtech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+
+        "ucrm-plugins/sdk-core": "*",
+        "ucrm-plugins/sdk-collections": "*",
+        "ucrm-plugins/sdk-config": "*",
+        "ucrm-plugins/sdk-data": "*",
+        "ucrm-plugins/sdk-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../sdk/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "archive": {
+        "exclude": [
+            "zip/",
+            "composer.lock"
+        ]
+    }
+}

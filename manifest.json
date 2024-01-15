@@ -1,0 +1,35 @@
+{
+    "version": "1",
+    "information": {
+        "name": "minimal",
+        "displayName": "Minimal",
+        "description": "A minimal Plugin template for UCRM.",
+        "url": "https://github.com/ucrm-plugins/tpl-minimal.git",
+        "version": "1.0.0",
+        "unmsVersionCompliancy": {
+            "min": "2.0.0",
+            "max": null
+        },
+        "ucrmVersionCompliancy": {
+            "min": "3.0.0",
+            "max": null
+        },
+        "author": "Ryan Spaeth <rspaeth@spaethtech.com>"
+    },
+    "configuration": [
+        {
+            "key": "devMode",
+            "label": "Development Mode?",
+            "description": "When enabled, development only features are available for this Plugin.",
+            "type": "checkbox",
+            "required": 0
+        },
+        {
+            "key": "logErrors",
+            "label": "Log Errors?",
+            "description": "When enabled, errors are shown in the Plugin's log file.",
+            "type": "checkbox",
+            "required": 0
+        }
+    ]
+}
