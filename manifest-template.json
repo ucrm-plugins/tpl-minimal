@@ -1,10 +1,10 @@
 {
     "version": "1",
     "information": {
-        "name": "minimal",
-        "displayName": "Minimal",
+        "name": "{{name}}",
+        "displayName": "Plugin (Minimal)",
         "description": "A minimal Plugin template for UCRM.",
-        "url": "https://github.com/ucrm-plugins/tpl-minimal.git",
+        "url": "https://github.com/ucrm-plugins/monorepo.git",
         "version": "1.0.0",
         "unmsVersionCompliancy": {
             "min": "2.0.0",

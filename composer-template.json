@@ -1,9 +1,9 @@
 {
-    "name": "ucrm-plugins/tpl-minimal",
+    "name": "ucrm-plugins/ext-{{name}}",
     "description": "A minimal Plugin template for UCRM.",
-    "type": "project",
+    "type": "ucrm-plugin",
     "license": "MIT",
-    "homepage": "https://gitlab.com/ucrm-plugins/tpl-minimal.git",
+    "homepage": "https://github.com/ucrm-plugins/monorepo.git",
     "authors": [
         {
             "name": "Ryan Spaeth",
@@ -37,8 +37,7 @@
     ],
     "archive": {
         "exclude": [
-            "zip/",
-            "composer.lock"
+            "zip/"
         ]
     }
 }
