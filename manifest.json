@@ -1,7 +1,7 @@
 {
     "version": "1",
     "information": {
-        "name": "{{name}}",
+        "name": "minimal",
         "displayName": "Plugin (Minimal)",
         "description": "A minimal Plugin template for UCRM.",
         "url": "https://github.com/ucrm-plugins/monorepo.git",

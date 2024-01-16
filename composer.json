@@ -1,5 +1,5 @@
 {
-    "name": "ucrm-plugins/ext-{{name}}",
+    "name": "ucrm-plugins/ext-minimal",
     "description": "A minimal Plugin template for UCRM.",
     "type": "ucrm-plugin",
     "license": "MIT",
